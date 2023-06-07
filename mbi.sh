@@ -10,3 +10,6 @@ brew install --cask google-chrome displaylink
 
 # Uninstall brew
 NONINTERACTIVE=1 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/uninstall.sh)"
+rm -rf /opt/homebrew/etc
+rm -rf /opt/homebrew/share
+rm -rf /opt/homebrew/var
