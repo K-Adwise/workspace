@@ -7,3 +7,6 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Install [Chrome, Displaylink Manager]
 brew install --cask google-chrome displaylink
+
+# Uninstall brew
+NONINTERACTIVE=1 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/uninstall.sh)"
